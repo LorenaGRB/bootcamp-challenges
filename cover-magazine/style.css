@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Playfair-Light';
+  src: url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+}
+
+.container {
+  width: 718px;
+  height: 1024px;
+  display: block;
+  margin: 0px auto;
+  background: url(/cover-magazine/images/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.cover__container {
+  width: 718px;
+  height: 1024px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+.selena {
+  width: 718px;
+  height: 1024px;
+  background-image: url(/cover-magazine/images/selena-gomez.png);
+  position: absolute;
+  background-position-x: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Playfair-Light';
+  line-height: 270px;
+  font-size: 200px;
+  color: #FFFFFF;
+  letter-spacing: 75px;
+}
+
+.title__back {
+  z-index: 0;
+  -webkit-transform: scaleY(1.9);
+          transform: scaleY(1.9);
+}
+
+.title__front {
+  z-index: 2;
+  -webkit-transform: scaleY(1.9);
+          transform: scaleY(1.9);
+}
+/*# sourceMappingURL=style.css.map */

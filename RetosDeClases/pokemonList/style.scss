@@ -1,0 +1,20 @@
+body{
+    background: crimson;
+    text-align: center;
+    color: #fff;
+}
+#pokemonList{
+    width:200px;
+    margin: 10px auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: cornsilk;
+    text-transform: capitalize;
+    color: crimson;
+}
+.title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

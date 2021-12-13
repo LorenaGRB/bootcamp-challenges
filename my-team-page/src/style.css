@@ -1,0 +1,224 @@
+@font-face {
+  font-family: "PTSerif-Regular";
+  src: url(../fonts/pt-serif.regular.ttf);
+}
+
+@font-face {
+  font-family: "PTSerif-Bold";
+  src: url(../fonts/pt-serif.bold.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(../fonts/Poppins-Bold.ttf);
+}
+
+.container {
+  margin: 0px auto;
+  display: block;
+  width: 62.5rem;
+  background-color: #ffffff;
+}
+
+@media (max-width: 999px) {
+  .container {
+    width: 370px;
+  }
+}
+
+.information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 999px) {
+  .information {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.title {
+  font-family: "PTSerif-Bold";
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.045em;
+}
+
+.subtitle {
+  font-family: "Poppins-Bold";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+.text {
+  font-family: "Poppins-Regular";
+  font-size: 18px;
+  line-height: 27px;
+  width: 439px;
+  height: 87px;
+  color: #000000;
+}
+
+.group_1 {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media (max-width: 999px) {
+  .group_1 {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.group_2 {
+  margin-top: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media (max-width: 999px) {
+  .group_2 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.member {
+  width: 20.83125rem;
+  height: 35rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+@media (max-width: 999px) {
+  .member {
+    height: 25rem;
+    width: 11rem;
+  }
+}
+
+.member__down {
+  width: 20.83125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+@media (max-width: 999px) {
+  .member__down {
+    margin-top: 10rem;
+    height: 20rem;
+    width: 11rem;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+}
+
+.member__photo {
+  width: 14.875rem;
+  height: 21.3125rem;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 999px) {
+  .member__photo {
+    width: 10rem;
+    height: 15rem;
+  }
+}
+
+.member__photo-1 {
+  background-image: url(../images/member1.png);
+}
+
+.member__photo-2 {
+  background-image: url(../images/member2.png);
+}
+
+.member__photo-3 {
+  background-image: url(../images/member3.png);
+}
+
+.member__photo-4 {
+  background-image: url(../images/member4.png);
+}
+
+.member__photo-5 {
+  background-image: url(../images/member5.png);
+}
+
+.member__photo-6 {
+  background-image: url(../images/member6.png);
+}
+
+.name {
+  font-family: "Poppins-Bold";
+  font-size: 18px;
+  line-height: 27px;
+  position: relative;
+  top: -3rem;
+  margin-bottom: 0px;
+}
+
+.career {
+  font-family: "PTSerif-Regular";
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  position: relative;
+  top: -9rem;
+  left: 5rem;
+}
+/*# sourceMappingURL=style.css.map */

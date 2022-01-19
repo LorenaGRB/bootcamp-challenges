@@ -1,0 +1,8 @@
+.gifGenerator {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    height: 400px;
+    width: 400px;
+    justify-content: space-around;
+}

@@ -1,0 +1,8 @@
+.task{
+  &__container{
+    display: flex;
+    max-width: 60rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
